@@ -1,157 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>Arianna O'Neil</title>
-        <!--Scooped these lovely links from w3 -->
-        <script src="https://kit.fontawesome.com/d24161057c.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-        
+<head>
+  <title>Arianna O'Neil</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google WebFonts -->
+  <link href="https://fonts.googleapis.com/css?family=Vibur|Roboto|Slabo+27px" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-    <body>
-        <header class="header">
-            <nav class="navbar navbar-style" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href=# img src="logo.png"></a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-collapse-main">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="active" href="#"><i class="fas fa-home"></i>Home</a></li>
-                        <li><a href=""><i class="fas fa-jedi"></i>About Me</a></li>
-                        <li><a href="ONeilResume.pdf" target="_blank"><i class="fas fa-laptop-code"></i>Resume</a></li>
-                        <li><a href=""><i class="fas fa-gamepad"></i>Hobbies</a></li>
-                        <li><a href=""><i class="fas fa-magic"></i>Work</a></li>
-                    </ul>
-                    </div>
-                </div>
-            </nav>
-            
-            <div class="video background">
-                <div class="video-wrap">
-                    <div id="video">
-                        <video id="bgvid" autoplay loop muted playsinline>
-                            <source src="background.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="home">
-            <div class="home-text text-center">
-            <h1>Arianna O'Neil</h1>
-            <h3>Welcome to my home page!</h3>
-            </div>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand js-scroll-trigger" href="#">Arianna O'Neil</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="js-scroll-trigger" href="#about">About</a></li>
+        <li><a class="js-scroll-trigger" href="#education">Education</a></li>
+        <li><a class="js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+        <li><a class="js-scroll-trigger" href="#experience">Experience</a></li>
+        <a class="btn btn-resume " href="AONeil2020.pdf" target="_blank">Resume</a>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!-- /NAVBAR -->
+
+  <!-- HEADER -->
+  <header class="masthead container-fluid">
+    <div class="row text-center" style="margin-top: 20px;">
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-pencil-alt fa-2x"></i>
         </div>
-            <div id="about" class="container-fluid text-center">
-                <h1 class="big-text">ABOUT ME</h1>
-            </div>
-            <div class="padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 gold-text text-center">
-                        <h2>Hello, World!</h2>
-                        <img src="me1.jpg">
-                    </div>
-                    <div class="col-sm-6 gold-text text-center">
-                        <h2>My hobbies</h2>
-                        <p class="lead onyx-text">I love all things video games, fantasy, and sci-fi. If I'm not logging 100+ hours on my Nintendo Switch, I'm probably participating in a 11.2 hour marathon of "The Lord of the Rings" trilogy. **I'm a big fan of coffee, curry, poodles, and Jeff Goldblum also.</p>
-                        <br>
-                        <p class="lead onyx-text">I enjoy website development, especially UI/UX design, and creating text-based adventure games.</p>
-                        <br>
-                        <p class="onyx-text">**Not in that particular order.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="divider-custom-line"></div>
+      </div>
+  </div>
+    </div>
+    <div class="row text-center" style="margin-top: 20px;">
+      <p class="top-hello">Hello world,</p>
+      <p class="top-subtext"> my name is</p>
+      <p class="name-text"> Arianna O'Neil</p>
+    </div>
+    <div class="row text-center" style="margin-top: 20px;">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <img src="images/ari.png" alt="Ari O'Neil" width="30%">
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+    <div class="row text-center" style="margin-top: 30px;">
+      <p class="top-subtext">compsci student & coffee drinker</p>
+    </div>
+  </header>
+  <!-- /HEADER -->
+
+  <!-- ABOUT ME -->
+  <div id="about" class="container-fluid text-center">
+    <h1 class="pink-text">About Me</h1>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-4">
+        <h3 class="pink-text">Hello, real world!</h3>
+        <p class="navy-text">I love the process of troubleshooting and breaking down problems piece by piece
+          until I've found the root cause. Although frustrating at times, there is no better feeling than when you have
+          finally squashed that bug that has been hiding in your code for days. I am highly interested in web development, but I also enjoy creating 
+          multipath text-based adventure games in different languages to brush up on my skills. I am always eager to learn, anything is possible
+          with a lot of coffee and a little debugging! </p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="pink-text">My Hobbies</h3>
+        <p class="navy-text">I love video games, scifi & comic conventions, practicing yoga, pad thai, Geralt of Rivia, elves, seltzer water, The Lord of the Rings,
+          Star Wars, iced americanos, outlandish fantasy novels, and Fen'Harel. </p>
+      </div>
+    </div>
+  </div>
+  <!-- /ABOUT ME -->
+
+  <!-- EDUCATION -->
+  <div id="education" class="container-fluid bg-yellow">
+    <h1 class="white-text">Education</h1>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5" style="margin-top: 20px;">
+        <img src="images/BSU-logo.png" width="90%">
+      </div>
+      <div class="col-md-5">
+        <h3 class="navy-text">Bridgewater State University</h3>
+        <h4 class="navy-text">Bridgewater, MA</h4>
+        <p class="white-text">Bachelor of Science degree in Computer Science</p>
+
+        <p class="navy-text"><i>GPA:</i></p>
+        <p class="white-text">3.3</p>
+
+        <p class="navy-text"><i>Graduation:</i></p>
+        <p class="white-text">May 2020</p>
+
+        <p class="navy-text"><i>Outside learning:</i></p>
+        <p class="white-text">Various guides and tutorials related to software development that college coursework did not cover.</p>
+        <p class="white-text">(A special thank you to StackOverflow, as always)</p>
+
+      </div>
+    </div>
+  </div>
+  <!-- /EDUCATION -->
+
+  <!-- PORTFOLIO -->
+  <div id="portfolio" class="container-fluid">
+    <h1 class="purple-text">Portfolio</h1>
+
+    <!-- 1 -->
+    <div class="row" style="margin-bottom: 75px">
+      <div class="col-md-1"></div>
+        <div class="col-md-5">
+                <img class="img-responsive" style="margin-bottom: 75px" src="images/overworld.png" alt="Overworld Logo">
         </div>
-            <div id="info" class="container-fluid text-center rose-bg">
-                <h1 class="white-text">PORTFOLIO</h1>
-            </div>
-              <div class="padding">
-        <div class="container">
-        <div class="row">
-            <div class="col-sm-6 gold-text">
-               <h3>Work<i class="fas fa-magic fa-2x"></i></h3>
-                <p class="onyx-text">In addition to my academic coursework, I have created projects such as a text-based adventure game, written in C++, that features examples of Object-Oriented design, Inheritance, Abstract Methods, and Encapsulation. </p>
-                <br>
-                <p class="onyx-text">I have utilized GitKraken and Github while acting as a Team Lead to manage group projects with my peers and also for my own independent work. Additionally, I have over four years of retail experience as a keyholder working with project deadlines, managing a store, and resolving conflicts between both customers and team members.</p>
-                <br>
-                <p class="lead onyx-text">I am also actively looking for internship opportunities!</p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 gold-text">
-        <!-- i plan to put an image here -->
-                
-            </div>
-            <div class="col-sm-6 gold-text">
-                        <h3>Education<i class="fas fa-graduation-cap fa-2x"></i></h3>
-                <p class="onyx-text">I am a senior at Bridgewater State University studying Computer Science, with an anticipated graduation date of May 2020. Getting that B.S. will certainly be bittersweet!</p>
-                <br>
-                <p class="onyx-text">I have completed courses such as Data Structures and Algorithms, Organization of Programming Languages, and Computer Organization where I have worked with a variety of software and hardware. </p>
-                <br>
-                <p class="onyx-text">Currently, I am enrolled in courses such as Object-Oriented Software Engineering, Operating Systems, and Analysis of Algorithms which I will complete by December 2019. I am experienced with languages such as Python, Java, C, C++, F#, and HTML. This semester I will be fine-tuning my skills with CSS, JavaScript, and R Programming. </p>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <!-- i plan to put an image here -->
-            </div>
+        <div class="col-md-5">
+            <h3 class="purple-text">Overworld</h3>
+            <h4 class="purple-text">Senior Capstone Project</h4>
+            <p class="navy-text">I spent my final semester creating additional pages to the Overworld website, as well as implementing requested features. I spent the semester researching various web development frameworks
+              and concepts in order to effectively resolve issues that were marked by the original developers. Overworld's current test environment can be seen here (<a href="https://overworld.netlify.com/" target="_blank">www.overworld.netlify.com</a>).
+              The IGDB API is used for all of the video games/information on the site.
+              </p>
+            <a class="btn btn-portfolio" href="https://github.com/RMalmberg/overworld" title="See project" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a>
         </div>
     </div>
-    </div>
-                <div id="end" class="container-fluid text-center">
-                <h1 class="big-text">IN ADDITION...</h1>
-            </div>
-                  <div class="padding">
-            <div class="container">
-                <div class="row">
-                        <div class="col-sm-6 gold-text">
-                        <h4>A labor of love</h4>
-                        <p class="onyx-text">When I was in high school I played around with HTML and CSS a bit to modify certain themes for my angsty teen blogs. Now, I am trying to build websites from the ground up.</p>
-                            <br>
-                        <p class="onyx-text">I will be updating my webpage as often as possible! There are a few missing pieces on here at the moment, such as the navbar, wonky links and design elements. Hey, a little bit of debugging and coffee makes the world go world! </p>
-                            <br>
-                        <p class="onyx-text">In the meantime, sit down, grab a snack and enjoy this photo of my dog, Blue.</p>
-                            <br>
-                        <p class="onyx-text">Keep checking in, because it can only get better from here! </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <img src="poodles2.JPG">
-                    </div>
-                </div>
-            </div>
+    <!-- /1 -->
+
+    <!-- 2 -->
+    <div class="row" style="margin-bottom: 75px">
+      <div class="col-md-1"></div>
+        <div class="col-md-5">
+
+                <img class="img-responsive" src="images/studyflo.png" alt="Studyflo">
+
         </div>
-        
-        <footer class="container-fluid text-center">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h3> Contact me!</h3>
-                    <h4><i class="fas fa-envelope fa-2x"></i></h4>
-                    <h4>oneilarianna@gmail.com</h4>
-                    <h4>a1oneil@student.bridgew.edu</h4>
-                </div>
-                <div class="col-sm-4">
-                    <h3>Connect!</h3>
-                            <fa><a href="https://github.com/a1oneil"><i class="fab fa-github fa-3x"></i></a></fa>
-                            <fa><a href="https://www.linkedin.com/in/oneilarianna"><i class="fab fa-linkedin-in fa-3x"></i></a></fa>
-                    </div>
-                <div class="col-sm-4">
-                    <h4>Thank you for stopping by!</h4>
-                <i class="fas fa-smile-beam fa-5x"></i>
-                    <h4>Take care!</h4>
-                </div>
-            </div>
-        </footer>
-            
-    </body>
-    </html>
+        <div class="col-md-5">
+            <h3 class="purple-text">Studyflo</h3>
+            <h4 class="purple-text">Final Project for COMP335 Web Application Development</h4>
+            <p class="navy-text">This was the first website I built from the ground up, using HTML/CSS/JavaScript and Node.js. It was also my first time hosting a site on Heroku, which was
+              a daunting, but worthwhile experience for a web dev newbie (at the time)! There are a few elements I would like to refactor, but this project will always hold a 
+              special place in my heart.</p>
+            <a class="btn btn-portfolio" href="http://studyflo.herokuapp.com/" title="See project" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- /2 -->
+
+    <!-- 3 -->
+    <div class="row" style="margin-bottom: 75px">
+      <div class="col-md-1"></div>
+        <div class="col-md-5">
+
+                <img class="img-responsive" style="border:1px solid #ddd" src="images/timer.png" alt="Study-Plan-Organize">
+
+        </div>
+        <div class="col-md-5">
+            <h3 class="purple-text">Study-Plan-Organize</h3>
+            <h4 class="purple-text">Final Project for COMP442 Object Oriented Software Engineering</h4>
+            <p class="navy-text">I designed a simple web application geared towards those who would like to follow the “Pomodoro Technique®” while studying, and managing their own tasks at hand, all on one page.
+              The countdown timer was created entirely with JavaScript, along with styling from HTML/CSS. As you can see, I am a big fan of the Vibur font and love
+              muted colors. </p>
+            <a class="btn btn-portfolio" href="http://floating-sea-76603.herokuapp.com/" title="See project" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <!-- /3 -->
+
+    <!-- 4 -->
+    <div class="row">
+      <div class="col-md-1"></div>
+        <div class="col-md-5 row text-center">
+            <p class="yellow-text">Arianna</p>
+            <i class="fas fa-jedi yellowiconcolor fa-4x"></i>
+            <p class="yellow-text">O'Neil</p>
+        </div>
+        <div class="col-md-5">
+            <h3 class="purple-text">Personal Website</h3>
+            <h4 class="purple-text">Side Project</h4>
+            <p class="navy-text">This website right here! I built this with Bootstrap and designed everything myself, with the help of FontAwesome. ;) </p>
+        </div>
+    </div>
+    <!-- /4 -->
+  </div>
+  <!-- /PORTFOLIO -->
+
+  <!-- RELATED EXPERIENCE -->
+  <div id="experience" class="container-fluid bg-blue">
+    <h1 class="white-text">Related Experience</h1>
+
+      <div class="row" style="margin-bottom: 50px">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <p class="navy-text" align="right"><i>COMP 350 Operating Systems</i></p>
+          <p class="navy-text" align="right"><i>Sep 2019 - Dec 2019</i></p>
+        </div>
+        <div class="col-md-1">
+            <i class="fas fa-robot fa-2x"></i>
+        </div>
+        <div class="col-md-6" style="margin-top: -22px;">
+          <h3 style="white-text" align="left">Operating System from Scratch
+</h3>
+          <h4 style="white-text" align="left">Operating System created from scratch via the Linux terminal 
+            environment, programming in C, and implementing assembly code. Compared to as powerful as
+            MS-DOS version 1.</h4>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 50px">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <p class="navy-text" align="right"><i>COMP250 Data Structures & Algorithms</i></p>
+          <p class="navy-text" align="right"><i>Sep 2018 - Dec 2018</i></p>
+        </div>
+        <div class="col-md-1">
+          <img src="images/whitesnake.png" width="50px" alt="Snake" title="Snake">
+        </div>
+        <div class="col-md-6" style="margin-top: -22px;">
+          <h3 style="white-text" align="left">Snake Game (Java)</h3>
+          <h4 style="white-text" align="left">Employed linked lists and other data structures
+             to create a personal rendition of a classic game.</h4>
+        </div>
+      </div>
+
+      <div class="row" style="margin-bottom: 50px">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <p class="navy-text" align="right"><i>COMP 450 Organization of Programming Languages</i></p>
+          <p class="navy-text" align="right"><i>Jan 2019 - May 2019</i></p>
+        </div>
+        <div class="col-md-1">
+            <i class="fas fa-hat-wizard fa-2x"></i>
+        </div>
+        <div class="col-md-6" style="margin-top: -22px;">
+          <h3 style="white-text" align="left">Text-Based Adventure Game (C++)</h3>
+          <h4 style="white-text" align="left">Implemented object-oriented design to create a multipath adventure game based on user input.</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <p class="navy-text" align="right"><i>Hobby projects</i></p>
+        </div>
+        <div class="col-md-1">
+            <i class="far fa-lightbulb fa-2x"></i>
+        </div>
+        <div class="col-md-6" style="margin-top: -22px;">
+          <h3 style="white-text" align="left">Arduino Board/Raspberry Pi Projects</h3>
+          <h4 style="white-text"align="left">As a hobby on the side, I have been tinkering with projects such
+            as connecting the Pi to a microcontroller (Arduino) to try and run some lights.</h4>
+        </div>
+      </div>
+  </div>
+  <!-- /RELATED EXPERIENCE -->
+
+  <!-- FOOTER - SOCIAL MEDIA -->
+  <div id="footer" class="foot text-center bg-navy">
+    <a href="https://www.linkedin.com/in/oneilarianna/"><i class="fab fa-linkedin fa-4x"></i>
+    <a href="https://github.com/a1oneil"><i class="fab fa-github fa-4x"></i>
+    <a href="mailto:oneilarianna@gmail.com"><i class="fas fa-envelope fa-4x"></i>
+  </div>
+  <!-- /FOOTER - SOCIAL MEDIA -->
+</body>
+
+<!-- Scripts -->
+<script src="https://kit.fontawesome.com/d24161057c.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="javascript/menu.js"></script>
+<script src="javascript/jquery.easing.js"></script>
+
+</html>
